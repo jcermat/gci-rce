@@ -2,6 +2,8 @@ import os
 import socket
 import shlex
 
+# execute this listener before executing victim.py
+
 # rhost = "10.10.16.3"
 # rport = 9002
 

