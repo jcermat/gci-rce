@@ -2,8 +2,8 @@ import os
 import socket
 import shlex
 
-#rhost = "10.10.16.3"
-#rport = 9002
+# rhost = "10.10.16.3"
+# rport = 9002
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind(("10.10.16.3", 9002))
